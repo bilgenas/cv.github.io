@@ -1,0 +1,54 @@
+/* 404 Not Found */
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  height: 100%; }
+
+body {
+  font-family: 'Source Sans Pro';
+  font-size: 14px;
+  background-image: linear-gradient(235deg, #ffad33
+  , #565867); }
+
+.button {
+  margin: 24px auto;
+  width: 138px;
+  height: 33px;
+  border: none;
+  border-radius: 2px;
+  background-color: #565867;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  color: #fff;
+  opacity: 0.9; }
+
+.button:hover {
+  background-color: #565867; }
+
+button:active {
+  position: relative;
+  top: 1px; }
+
+/* Body Class */
+.container {
+  text-align: center; }
+  .container.head {
+    padding-top: 10%; }
+    .container.head .page-header {
+      font-size: 200px;
+      font-weight: 900;
+      color: #f2f2f2;
+      opacity: 0.95; }
+    .container.head .page-content {
+      line-height: 1.5;
+      color: #ffffff;
+      /* ID */ }
+      .container.head .page-content #paragraph-1 {
+        font-weight: 600;
+        opacity: 0.8; }
+      .container.head .page-content #paragraph-2 {
+        opacity: 0.7; }
+
+/*# sourceMappingURL=styles.css.map */
